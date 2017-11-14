@@ -442,4 +442,3 @@ procdump(void)
     cprintf("\n");
   }
 }
-
