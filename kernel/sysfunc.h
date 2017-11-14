@@ -29,5 +29,4 @@ int sys_join(void);
 int sys_t_sleep(void);
 int sys_t_wakeup(void);
 
-
 #endif // _SYSFUNC_H_
