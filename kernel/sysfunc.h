@@ -23,6 +23,11 @@ int sys_unlink(void);
 int sys_wait(void);
 int sys_write(void);
 int sys_uptime(void);
-int sys_getprocs(void);
+
+int sys_clone(void);
+int sys_join(void);
+int sys_t_sleep(void);
+int sys_t_wakeup(void);
+
 
 #endif // _SYSFUNC_H_
