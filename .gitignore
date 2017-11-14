@@ -1,6 +1,15 @@
 *.o
 /fs/
 /kernel/*.o
+/kernel/*.d
+/kernel/bootblock
+/kernel/*.out
+/kernel/kernel
+/kernel/vectors.S
+/tools/mkfs
+/tools/mkfs.d
+/user/bin/*
 /user/*.o
+/user/*.d
 *.img
 
