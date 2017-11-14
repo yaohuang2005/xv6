@@ -1,0 +1,6 @@
+*.o
+/fs/
+/kernel/*.o
+/user/*.o
+*.img
+
