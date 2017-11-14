@@ -443,4 +443,10 @@ procdump(void)
   }
 }
 
-
+int 
+sys_getprocs(void) 
+{
+   int i = 1; 
+   i++;
+   return i;
+}
